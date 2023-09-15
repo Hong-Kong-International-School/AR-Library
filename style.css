@@ -14,8 +14,7 @@ body {
     margin-right: 1rem;
 }
 
-h1 {
-    font-size: 3rem;
+h2, h5 {
     text-align: center;
     width: auto;
 }
@@ -31,5 +30,16 @@ img {
 }
 
 p { 
-    text-align: center;
+    text-align: left;
+}
+
+.centered{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instructions{
+    border: none;
+    width: 390px;
 }
