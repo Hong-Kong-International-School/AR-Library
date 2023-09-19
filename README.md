@@ -1,6 +1,6 @@
 # Advanced Computer Science Studio AR Pages
 
-Duplicate the tmeplate folder "samion" and change the name of the folder to your name and edit the files inside
+Duplicate the template folder and change the name of the folder to your name and edit the files inside
 
 Make sure your image is square and remember to edit the html page template index.html
 
