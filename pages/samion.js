@@ -1,3 +1,5 @@
+let i = 0;
+
 fetch('samion.reality')
     .then(response => response.blob())
     .then(blob => {
@@ -12,3 +14,14 @@ fetch('samion.reality')
     document.getElementById('experience').appendChild(link);
 
 }).catch(err => console.error('Failed to load reality file', err));
+
+function loading() {
+    document.getElementById('loading').textContent
+    i+=1;
+    if (i > 3) {
+        i = 0;
+    }
+    document.getElementById('loading').textContent = "Loading" + ".".repeat(i);
+}
+
+setInterval(loading, 500);
