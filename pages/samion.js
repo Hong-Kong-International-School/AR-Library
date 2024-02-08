@@ -25,4 +25,4 @@ function loading() {
     document.getElementById('loading').textContent = "Loading" + ".".repeat(i);
 }
 
-setInterval(loading, 500);
+setInterval(loading, 300);
