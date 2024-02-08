@@ -11,6 +11,7 @@ fetch('samion.reality')
     const image = document.createElement('img');
     image.src = "samion.png";
     link.appendChild(image);
+    document.getElementById('loading').remove()
     document.getElementById('experience').appendChild(link);
 
 }).catch(err => console.error('Failed to load reality file', err));
